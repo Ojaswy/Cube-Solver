@@ -566,12 +566,12 @@ def captureImage(imageName):
 
 def main():
 	
-	front,s = extract(imageName='front_face.png', face='f')
-	right,s = extract(imageName='right_face.png', face='r')
-	back,s = extract(imageName='back_face.png', face='b')
-	left,s = extract(imageName='left_face.png', face='l')
-	top,s = extract(imageName='top_face.png', face='t')
-	bottom,s = extract(imageName='bottom_face.png', face='bo')
+	front,s = extract(imageName='front_face.bmp', face='f')
+	right,s = extract(imageName='right_face.bmp', face='r')
+	back,s = extract(imageName='back_face.bmp', face='b')
+	left,s = extract(imageName='left_face.bmp', face='l')
+	top,s = extract(imageName='top_face.bmp', face='t')
+	bottom,s = extract(imageName='bottom_face.bmp', face='bo')
 	#bottom['bo7'] = 'orange'
 
 	print json.dumps(front, indent=2)
