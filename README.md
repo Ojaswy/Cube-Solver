@@ -1,7 +1,5 @@
 # Cube-Solver
-Repo which holds the algorithm to solve a 3x3 Rubik's Cube.
-
-This project is done using Opencv.
+# Algorithm to solve a 3x3 Rubik's Cube.
 
 PS: Need to upload .bmp format pictures in the same directory as that of the code with the following titles
 
@@ -17,6 +15,7 @@ e) front_face.bmp
 
 f) back_face.bmp
 
-Implementation: Run the  rubiks-solver.py file
+# Implementation: 
+Run the  rubiks-solver.py file
 
 ![](https://www.youcandothecube.com/resources/images/assets/rubiks-cube-coloured.png)
