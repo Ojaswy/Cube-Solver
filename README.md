@@ -17,4 +17,6 @@ e) front_face.bmp
 
 f) back_face.bmp
 
+Implementation: Run the  rubiks-solver.py file
+
 ![](https://www.youcandothecube.com/resources/images/assets/rubiks-cube-coloured.png)
