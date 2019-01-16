@@ -1,7 +1,7 @@
 import numpy as np
 import os
 import cv2
-from cv2 import *
+from cv2 import * 
 import sys
 import time
 import json
