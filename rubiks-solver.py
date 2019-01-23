@@ -166,7 +166,7 @@ def extract(imageName, face):
 				if centroid_y > 0 and centroid_y < 66:
 					
 					position[face+'2'] = 'yellow'
-				elif centroid_y > 66 and centroid_y < 133:
+			 	elif centroid_y > 66 and centroid_y < 133:
 					
 					position[face+'5'] = 'yellow'
 				elif centroid_y > 133 and centroid_y < 200:
