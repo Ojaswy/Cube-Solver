@@ -7,7 +7,7 @@ import time
 import json
 def extract(imageName, face):
 	im = cv2.imread(imageName)
-	width, height = im.shape[:2]
+	width, height = im.shape[:2] 
 	print width, height
 	#im = cv2.equalizeHist(im)
 	#kernel = np.ones((5,5),np.float32)/25
