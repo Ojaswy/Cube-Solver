@@ -1,7 +1,7 @@
 T=[]
 S=[0]*20,'QTRXadbhEIFJUVZYeijf',0
 I='FBRLUD'
- 
+  
 G=[(~i%8,i/8-4)for i in map(ord,'ouf|/[bPcU`Dkqbx-Y:(+=P4cyrh=I;-(:R6')]
 R=range
 
