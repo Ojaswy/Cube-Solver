@@ -5,7 +5,7 @@ I='FBRLUD'
 G=[(~i%8,i/8-4)for i in map(ord,'ouf|/[bPcU`Dkqbx-Y:(+=P4cyrh=I;-(:R6')]
 R=range
 
-def M(o,s,p):
+def M(o,s,p): 
  z=~p/2%-3;k=1
  for i,j in G[p::6]:i*=k;j*=k;o[i],o[j]=o[j]-z,o[i]+z;s[i],s[j]=s[j],s[i];k=-k
 
