@@ -3,7 +3,7 @@ import os
 import cv2 
 from cv2 import *  
 import sys
-import time 
+import time  
 import json
 def extract(imageName, face):
 	im = cv2.imread(imageName)
