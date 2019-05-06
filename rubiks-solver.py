@@ -5,7 +5,7 @@ from cv2 import *
 import sys
 import time  
 import json
-def extract(imageName, face):
+def extract(imageName, face):  
 	im = cv2.imread(imageName)
 	width, height = im.shape[:2] 
 	print width, height
