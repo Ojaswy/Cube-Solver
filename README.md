@@ -9,7 +9,7 @@ b) bottom_face.bmp
  
 c) right_face.bmp 
 
-d) left_face.bmp
+d) left_face.bmp 
 
 e) front_face.bmp
 
