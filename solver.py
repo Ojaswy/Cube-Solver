@@ -31,7 +31,7 @@ def P(i,m,t,s,l=''):
    M(u,v,p);r=p<n%2*i or P(i,m+1,u,v,l+I[p]+`n`)
    if r>1:return r
 
-s=raw_input().split()
+s=raw_input().split() 
 o=[-(p[-1]in'UD')or p[0]in'RL'or p[1]in'UD'for p in s]
 s=[chr(64+sum(1<<I.find(a)for a in x))for x in s]
 
