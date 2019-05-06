@@ -36,7 +36,7 @@ o=[-(p[-1]in'UD')or p[0]in'RL'or p[1]in'UD'for p in s]
 s=[chr(64+sum(1<<I.find(a)for a in x))for x in s]
 
 for i in R(7):
- m=0;C={};T+=C,;x=[S]
+ m=0;C={};T+=C,;x=[S] 
  for j,k,d in x:
   h=H(i,j,k)
   for p in R(C.get(h,6)):
