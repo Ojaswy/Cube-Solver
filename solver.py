@@ -26,7 +26,7 @@ def P(i,m,t,s,l=''):
   if T[j][H(j,t,s)]<m:return
  if~m<0:print l;return t,s
  for p in R(6):
-  u=t[:];v=s[:]
+  u=t[:];v=s[:] 
   for n in 1,2,3:
    M(u,v,p);r=p<n%2*i or P(i,m+1,u,v,l+I[p]+`n`)
    if r>1:return r
