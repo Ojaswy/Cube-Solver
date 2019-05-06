@@ -19,7 +19,7 @@ def extract(imageName, face):
 
 	#im = cv2.medianBlur(im,7)
 	#cam = cv2.VideoCapture(0)
-	#s, im = cam.read()
+	#s, im = cam.read() 
 
 	position = {}
 	#s, im = cam.read()
